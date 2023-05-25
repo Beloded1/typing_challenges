@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def ban_users(users_ids: ___) -> ___:
+def ban_users(users_ids: set[int]) -> int:
     pass
 
 

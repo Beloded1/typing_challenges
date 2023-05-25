@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def get_current_user() -> ___:
+def get_current_user() -> tuple[str, int, str]:
     pass
 
 
