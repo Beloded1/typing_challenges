@@ -1,12 +1,13 @@
 from constants import ___
 
 
-def create_user(user_name: ___, user_age: ___, after_created: ___) -> ___:
-    pass
+def create_user(user_name: str, user_age: int, after_created: callable) -> None:
+    user_id = 111 
+    after_created(user_id, user_name)
 
 
 def send_test_email(user_id: int) -> None:
-    pass
+    print(f"Sending test email to user {user_id}")
 
 
 if __name__ == "__main__":
